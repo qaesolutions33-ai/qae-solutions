@@ -2,6 +2,25 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## User Profile
+
+**Olivier Trinel** — Gérant de la SASU QAE Solutions, basée à Lanton (33), Nouvelle-Aquitaine.
+
+Deux activités principales :
+1. **Projeteur béton armé indépendant** — Reprise après 13 ans d'interruption (AVC). Expertise en calcul de structures, plans d'exécution, Eurocodes, AutoCAD.
+2. **Consultant en accompagnement IA pour PME** — En développement. Phase d'apprentissage et de montée en compétence (pas encore expert).
+
+Contexte : gestion régulière de projets immobiliers (construction, extensions, normes électriques). Approche pragmatique et directe. Préfère les réponses structurées et opérationnelles.
+
+## Exigences pour les réponses
+
+- **Conformité obligatoire** : toujours vérifier l'exactitude des informations (normes, lois, réglementations)
+- **Zéro hallucination** : dire clairement "Je n'ai pas cette information" plutôt qu'une réponse approximative
+- **BTP** : citer les sources (DTU, Eurocodes, normes NF)
+- **Administratif** : vérifier les textes de loi actuels
+- **Contexte géographique** : France et Nouvelle-Aquitaine prioritaire
+- **Sources** : toujours préciser si la réponse est sourcée ou non, et citer les sources
+
 ## Project Overview
 
 **Feuilles de Caisse** — A French-language web and mobile application for automating monthly cash sheet generation from bank statement PDFs. Extracts transactions, categorizes them by accounting codes, and exports to Excel.
